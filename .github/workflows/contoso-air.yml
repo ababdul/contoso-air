@@ -45,7 +45,7 @@ env:
   CLUSTER_NAME: myakscluster
   DEPLOYMENT_MANIFEST_PATH: ./manifests
   DOCKER_FILE: src/web/Dockerfile
-  BUILD_CONTEXT_PATH: ./
+  BUILD_CONTEXT_PATH: ./src/web
   NAMESPACE: dev
 
 jobs:
